@@ -158,9 +158,9 @@ int main()
 {
   Postfix *postFix=new Postfix();
   postFix->Initial("A+B*(C-D)-E/F#");
-  cout<<"the original string is:"<<endl<<"A+B*(C-D)-E/F#"<<endl;
+  cout<<"the original string is:"<<endl;
   postFix->MidToPostfix();
   cout<<postFix->GetPostExp()<<endl;
-  cout<<"the result should be:"<<endl<<"ABCD-*+EF/-"<<endl;
+  cout<<"the result should be:"<<endl;
   return 0;
 }
