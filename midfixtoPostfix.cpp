@@ -6,7 +6,6 @@ class Postfix
   public:
     void Initial(char *str);
     bool IsDigit();
-    Postfix();
     void MidToPostfix();
     bool Is_Operator(char op);/*ÅÐ¶ÏÊÇ·ñÎªÔËËã·û*/
     int ISP(char op);//in stack priority
@@ -27,10 +26,6 @@ char* Postfix::CreateString(char* str)
   char* temp=result;
   while(* temp++=* str++);
   return result;
-}
-
-Postfix::Postfix()
-{
 }
 
 void Postfix::PrintMessage(char * message)
