@@ -1,0 +1,2 @@
+make -B \
+&& ./midfixtoPostfix.exe
